@@ -14,7 +14,7 @@ function App() {
       delay: 100,
     }),
       AOS.refresh();
-  }, []);
+  });
 
   return (
     <>

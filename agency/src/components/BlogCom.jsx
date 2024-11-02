@@ -33,7 +33,7 @@ const BlogsData = [
       "“The results have been incredible. With Power Digital, it feels like they’re in our trench, supporting and understanding us. They’re like a partner and mentor in helping us get where we want to be. “The results have been incredible. ",
     author: "Someone",
     date: "April 22, 2022",
-    aosdelay: "700",
+    aosdelay: "900",
   },
 ];
 

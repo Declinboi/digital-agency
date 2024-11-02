@@ -4,8 +4,8 @@ import { FaArrowRight } from "react-icons/fa";
 const BlogCard = ({ data }) => {
   const { id, image, title, description, author, date, aosDelay } = data;
   return (
-    <div data-aos="fade-up" data-aos-delay={aosDelay} className=" group px-4">
-      <div className="overflow-hidden ">
+    <div  className=" group px-4">
+      <div data-aos="fade-up" data-aos-delay={aosDelay} className="overflow-hidden ">
         <img
           src={image}
           alt=""
