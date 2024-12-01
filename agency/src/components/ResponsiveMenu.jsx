@@ -27,7 +27,7 @@ const ResponsiveMenu = ({ showMenu }) => {
               return (
                 <li key={paths} className="cursor-pointer py-4">
                   <NavLink
-                    key={paths}
+                    to={paths}
                     className="text-lg font-medium hover:text-primary py-2 hover:border-b-2 hover:border-primary transition-all duration-500"
                   >
                     {link}

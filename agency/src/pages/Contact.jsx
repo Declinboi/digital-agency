@@ -1,8 +1,11 @@
 import React from 'react'
+import TodoList from '../components/TodoList'
 
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <div>
+      <TodoList/>
+    </div>
   )
 }
 
